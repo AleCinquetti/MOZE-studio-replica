@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
     background: #fafafa;
+}
+
+i {
+    display: none;
 }
 
 header {
@@ -31,9 +36,17 @@ section {
     margin-top: 40px;
 }
 
+.navbar i {
+    display: none;
+}
+
 .main-nav {
     display: flex;
     list-style-type: none;
+}
+
+.main-nav i {
+    display: none;
 }
 
 .main-nav li {
@@ -347,6 +360,7 @@ footer {
 
     .navbar i {
         font-size: 32px;
+        display: block;
     }
 
     .main-nav {
