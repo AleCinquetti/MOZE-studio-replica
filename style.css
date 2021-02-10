@@ -340,8 +340,50 @@ footer {
 
 
 @media screen and (max-width: 420px) {
+
+    .logo-text {
+        font-size: 32px;
+    }
+
+    .navbar i {
+        font-size: 32px;
+    }
+
     .main-nav {
+        width: 0;
+        height: 0; 
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .main-nav.open {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        width: 80vw;
+        padding: 100px 0 0 20px;
+        box-shadow: 0 0 0 3px #dfdfdf;
+        transition: ease 0.3s;
+    }
+
+    .main-nav li {
+        margin-bottom: 12px;
+    }
+
+    .main-nav i {
+        position: fixed;
+        right: 10%;
+        font-size: 32px;
+        top: 5%;
         display: none;
+    }
+    .main-nav.open i {
+        display: block;
     }
 
     header {
