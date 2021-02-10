@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 body {
@@ -86,6 +87,7 @@ section {
 .jumbo-title {
     font-size: 96px;
     font-weight: 500;
+    font-family: 'Alegreya', serif;
 }
 .jumbo-title::first-letter {
     text-transform: uppercase;
@@ -132,6 +134,7 @@ section {
     font-size: 56px;
     margin-left: 10%;
     margin-bottom: 52px;
+    font-family: 'Alegreya', serif;
 }
 .section-title::first-letter {
     text-transform: uppercase;
@@ -162,6 +165,8 @@ section {
 
 .single-activity h3 {
     width: 15%;
+    font-family: 'Alegreya', serif;
+    font-weight: 500;
 }
 
 .single-activity p {
@@ -297,6 +302,7 @@ section {
 .contact-title {
     font-size: 72px;
     font-weight: 500;
+    font-family: 'Alegreya', serif;
 }
 
 .contact-us {
@@ -315,14 +321,17 @@ footer {
     color: grey;
 }
 
+
+
 .right-footer {
     display: flex;
     list-style: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 
-.right-footer p {
+.left-footer p {
     font-weight: 300;
+    font-size: 11px;
 }
 
 .right-footer li {
@@ -423,6 +432,7 @@ footer {
     .section-title {
         font-size: 32px;
         font-weight: 500;
+        
     }
 
     .single-activity {
